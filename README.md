@@ -1,6 +1,6 @@
 ## Programa de consola que convierte valores en distintas monedas
 
-![Conversor de monedas](../conversor-de-monedas/assets/Badge-Conversor.png "Conversor de monedas")
+![Conversor de monedas](./assets/Badge-Conversor.png "Conversor de monedas")
 
 #### En este proyecto desarrollado para interfaz de consola se le solicita al usuario que elija una de las seis opciones de conversión y que introduzca un valor a convertir. El sistema se comunica con una 'API de Conversión de Monedas' y devuelve como resultado el valor convertido y otros datos importantes como se muestra a continuación en el caso de uso:
 
