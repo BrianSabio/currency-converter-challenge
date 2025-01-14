@@ -9,7 +9,7 @@ public class Servicio {
     private String moneda_objetivo;
     private Float valor_a_convertir;
 
-    public Respuesta consulta_api(String moneda_base, String moneda_objetivo, Float valor_a_convertir) {
+    public Respuesta consultaApi(String moneda_base, String moneda_objetivo, Float valor_a_convertir) {
         URI direccion = URI
                 .create("https://v6.exchangerate-api.com/v6/885d0e156963f3dd77e417be/pair/"
                         + moneda_base + "/"
