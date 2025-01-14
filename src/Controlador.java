@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class Controlador {
-    public void ejecucion_programa() {
+    public void ejecucionPrograma() {
         System.out.println("Bienvenido/a al conversor de monedas");
         Scanner lectura = new Scanner(System.in);
         Servicio servicio = new Servicio();
@@ -43,22 +43,22 @@ public class Controlador {
 
                 switch (opcion) {
                     case 1:
-                        respuesta = servicio.consulta_api("USD", "ARS", valor_a_convertir);
+                        respuesta = servicio.consultaApi("USD", "ARS", valor_a_convertir);
                         break;
                     case 2:
-                        respuesta = servicio.consulta_api("ARS", "USD", valor_a_convertir);
+                        respuesta = servicio.consultaApi("ARS", "USD", valor_a_convertir);
                         break;
                     case 3:
-                        respuesta = servicio.consulta_api("USD", "UYU", valor_a_convertir);
+                        respuesta = servicio.consultaApi("USD", "UYU", valor_a_convertir);
                         break;
                     case 4:
-                        respuesta = servicio.consulta_api("UYU", "USD", valor_a_convertir);
+                        respuesta = servicio.consultaApi("UYU", "USD", valor_a_convertir);
                         break;
                     case 5:
-                        respuesta = servicio.consulta_api("USD", "CLP", valor_a_convertir);
+                        respuesta = servicio.consultaApi("USD", "CLP", valor_a_convertir);
                         break;
                     case 6:
-                        respuesta = servicio.consulta_api("CLP", "USD", valor_a_convertir);
+                        respuesta = servicio.consultaApi("CLP", "USD", valor_a_convertir);
                         break;
                     default:
                         System.out.println("Por favor ingrese una opción válida");
